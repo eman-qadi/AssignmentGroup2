@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home1"
+    android:background="@drawable/firstactivity">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="317dp"
+        android:layout_marginLeft="317dp"
+        android:layout_marginBottom="65dp"
+        android:layout_weight="1"
+        android:onClick="Exit"
+        app:backgroundTint="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="211dp"
+        android:layout_weight="1"
+        android:onClick="wather"
+        app:backgroundTint="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="294dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="337dp"
+        android:layout_weight="1"
+        android:onClick="location"
+        app:backgroundTint="#00FFFFFF" />
+
+</RelativeLayout>
+
+
