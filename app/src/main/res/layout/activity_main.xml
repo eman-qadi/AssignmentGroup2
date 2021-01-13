@@ -9,7 +9,6 @@
     tools:context=".MainActivity"
     android:background="@drawable/secondactivity">
 
-
     <TextView
         android:id="@+id/tv_speed"
         android:layout_width="200dp"
@@ -18,9 +17,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
-        android:layout_marginBottom="513dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="530dp"
         android:text="@string/_0_004" />
 
     <TextView
@@ -31,9 +30,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginRight="61dp"
-        android:layout_marginBottom="677dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="693dp"
         android:text="@string/_0_002" />
 
     <TextView
@@ -44,9 +43,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="6dp"
-        android:layout_marginEnd="-44dp"
-        android:layout_marginRight="-44dp"
-        android:layout_marginBottom="620dp"
+        android:layout_marginEnd="-31dp"
+        android:layout_marginRight="-31dp"
+        android:layout_marginBottom="634dp"
         android:text="@string/_0_001" />
 
     <TextView
@@ -57,9 +56,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="565dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="580dp"
         android:text="@string/_0_003" />
 
     <TextView
@@ -83,9 +82,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginRight="23dp"
-        android:layout_marginBottom="398dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="417dp"
         android:text="@string/cell_tower_wifi" />
 
     <TextView
@@ -98,7 +97,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="113dp"
         android:layout_marginRight="113dp"
-        android:layout_marginBottom="341dp"
+        android:layout_marginBottom="355dp"
         android:text="@string/off" />
 
     <TextView
@@ -110,7 +109,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
-        android:layout_marginBottom="108dp" />
+        android:layout_marginBottom="94dp" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/sw_locationsupdates"
@@ -138,8 +137,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="212dp"
-        android:layout_marginRight="212dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
         android:layout_marginBottom="245dp"
         android:fontFamily="@font/salsa"
         android:onClick="gps_onClick"

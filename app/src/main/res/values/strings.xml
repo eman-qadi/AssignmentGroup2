@@ -17,4 +17,24 @@
     <string name="cell_tower_wifi">Cell Tower + Wifi</string>
     <string name="sensor">Sensor:</string>
     <string name="speed">Speed:</string>
+    <string name="todo1">todo1</string>
+    <array name="country">
+        <item>Ramallah</item>
+        <item>Bir Zeit</item>
+        <item>Nablus</item>
+        <item>Bethlehem</item>
+        <item>Hebron</item>
+        <item>Jericho</item>
+        <item>Tulkarm</item>
+        <item>Jenin</item>
+        <item>Rafah</item>
+        <item>Nissan</item>
+        <item>Jerusalem</item>
+        <item>Jafa</item>
+        <item>Haifa</item>
+        <item>Akka</item>
+        <item>Safad</item>
+        <item>Salfit</item>
+        <item>Tiberias</item>
+    </array>
 </resources>

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public String country;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv_lat = findViewById(R.id.tv_lat);
@@ -123,10 +123,10 @@ public class MainActivity extends AppCompatActivity {
         try {
             List<Address> address = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(), 1);
             country=address.get(0).getCountryName();
-            tv_address.setText(address.get(0).getAddressLine(0)+"_"+address.get(0).getCountryName());
+            tv_address.setText(address.get(0).getCountryName()+"");
         } catch (Exception e) {
-            country="Palestine";
-            tv_address.setText("Cannot get Street Address!");
+            //country="Palestine";
+            tv_address.setText("Cannot get Street Address!"+country);
         }
     }
 
@@ -169,10 +169,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Wather(View view) {
         Intent intent=new Intent(this,Wather_Activity.class);
-        intent.putExtra("Palestine",country);
+        intent.putExtra("cit",country);
         startActivity(intent);
     }
-
     public void back(View view) {
         Intent intent=new Intent(this,Home1.class);
         startActivity(intent);
